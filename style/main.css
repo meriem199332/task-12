@@ -1,0 +1,119 @@
+@import "./root.css";
+@import "./global.css";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+    
+}
+nav{
+
+    gap: 1.5rem;
+    position: relative;
+
+}
+.underline{
+  border: 3px solid var(--main-color);
+  width: 7.5rem;
+  height: .2rem;
+background: var(--main-color);
+position: absolute;
+top: 50px;
+
+
+}
+
+
+.card{
+    background: var(--white-color);
+     width: 19.6rem;
+    height: 23.6rem;
+    position: relative;
+
+
+}
+.card-img{
+    width: 13rem;
+    height: 7.8rem ;
+    background-color: #f2f2f2;
+    border-radius: .7rem;
+    position: absolute;
+    top: 3rem;
+    left: 3.5rem;
+   
+
+
+
+}
+.imgs{
+    position: absolute;
+    width: 10rem;
+    top: 1rem;
+    left: 2.5rem;
+   
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-content{
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    bottom: 2rem;
+    
+
+}
+.real-price{
+    color: var(--main-color);
+}
+.light-price::before{
+    content: "$40";
+  font-size: 1rem;
+  position: absolute;
+  top: 3.3rem;
+  left: 3.8rem;
+  color: var( --black-secondray-color);
+ 
+}
+.star{
+    position: absolute;
+    right: 1rem;
+    top: 3.2rem;
+     
+}
+.star-content{
+color: var(--black-secondray-color);
+
+}
+ .fa-star{
+    color: var(--star-color);
+ }
+.btn{
+border: none;
+
+}
+.btn1{
+    border: none;
+    background:#F0F1F5;
+    transition: .4s;
+}
+.btn1:hover{
+ padding: 5rem;
+ background: #2A2A2A66;
+}
+.btn2{
+    border: none;
+    background:var(--main-color);
+    color: #fff;
+    transition: .4s;
+}
+.btn2:hover{
+ padding: 5rem;
+ background:#ee5833a9;
+}
